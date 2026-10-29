@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.ipynb_checkpoints/
+wandb/
+mlruns/
+data/raw/
+adapters/
+fused_model/
+models/
+*.safetensors
+*.gguf
