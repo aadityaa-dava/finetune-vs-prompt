@@ -1,0 +1,10 @@
+{
+  "name": "base_fewshot_val",
+  "n": 427,
+  "json_valid_rate": 0.904,
+  "pair_precision": 0.6968,
+  "pair_recall": 0.5394,
+  "pair_f1": 0.6081,
+  "sentence_exact_match": 0.4567,
+  "mean_latency_s": 1.4551
+}
