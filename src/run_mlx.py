@@ -15,10 +15,11 @@ def main():
     ap.add_argument("--name", required=True)
     ap.add_argument("--limit", type=int, default=None)
     ap.add_argument("--fewshot", action="store_true")
+    ap.add_argument("--adapter", default=None)
     ap.add_argument("--max_tokens", type=int, default=256)
     a = ap.parse_args()
 
-    model, tok = load(a.model)
+    model, tok = load(a.model, adapter_path=a.adapter)
     rows = [json.loads(l) for l in open(f"data/processed/{a.split}.jsonl")]
     if a.limit:
         rows = rows[: a.limit]
@@ -38,6 +39,8 @@ def main():
             f.write(json.dumps({"text": e["text"], "raw_output": out, "latency_s": dt}) + "\n")
             if i < 3:
                 print(f"--- {e['text']}\n{out}\n({dt:.2f}s)")
+    import mlx.core as mx
+    print("peak GPU memory (GB):", round(mx.get_peak_memory() / 1e9, 2))
     print("wrote", out_path, len(rows))
 
 
