@@ -1,0 +1,10 @@
+{
+  "name": "ckpt_1200_val",
+  "n": 427,
+  "json_valid_rate": 0.9977,
+  "pair_precision": 0.8126,
+  "pair_recall": 0.7522,
+  "pair_f1": 0.7812,
+  "sentence_exact_match": 0.7237,
+  "mean_latency_s": 1.1382
+}

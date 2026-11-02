@@ -1,0 +1,10 @@
+{
+  "name": "ckpt_1600_val",
+  "n": 427,
+  "json_valid_rate": 1.0,
+  "pair_precision": 0.8522,
+  "pair_recall": 0.723,
+  "pair_f1": 0.7823,
+  "sentence_exact_match": 0.6932,
+  "mean_latency_s": 1.0513
+}
