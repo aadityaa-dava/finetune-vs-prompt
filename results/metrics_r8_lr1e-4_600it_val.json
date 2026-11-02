@@ -1,0 +1,10 @@
+{
+  "name": "r8_lr1e-4_600it_val",
+  "n": 427,
+  "json_valid_rate": 0.9696,
+  "pair_precision": 0.7701,
+  "pair_recall": 0.6297,
+  "pair_f1": 0.6929,
+  "sentence_exact_match": 0.644,
+  "mean_latency_s": 1.2492
+}
