@@ -1,0 +1,10 @@
+{
+  "name": "r16_lr1e-4_1700it_val",
+  "n": 427,
+  "json_valid_rate": 0.9859,
+  "pair_precision": 0.7862,
+  "pair_recall": 0.7128,
+  "pair_f1": 0.7477,
+  "sentence_exact_match": 0.6979,
+  "mean_latency_s": 1.1055
+}
