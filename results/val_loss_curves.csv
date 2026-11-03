@@ -1,0 +1,23 @@
+run,step,val_loss
+"rank 8, lr 1e-4 (reference)",200,0.08
+"rank 8, lr 1e-4 (reference)",400,0.058
+"rank 8, lr 1e-4 (reference)",600,0.059
+"rank 8, lr 1e-4 (reference)",800,0.054
+"rank 8, lr 1e-4 (reference)",1000,0.061
+"rank 8, lr 1e-4 (reference)",1200,0.043
+"rank 8, lr 1e-4 (reference)",1400,0.043
+"rank 8, lr 1e-4 (reference)",1600,0.061
+"rank 8, lr 1e-4 (reference)",1700,0.042
+"rank 16, lr 1e-4",200,0.093
+"rank 16, lr 1e-4",400,0.073
+"rank 16, lr 1e-4",600,0.065
+"rank 16, lr 1e-4",800,0.06
+"rank 16, lr 1e-4",1000,0.075
+"rank 16, lr 1e-4",1200,0.051
+"rank 16, lr 1e-4",1400,0.059
+"rank 16, lr 1e-4",1600,0.081
+"rank 16, lr 1e-4",1700,0.066
+"rank 8, lr 2e-4 (stopped at 800)",200,0.154
+"rank 8, lr 2e-4 (stopped at 800)",400,0.111
+"rank 8, lr 2e-4 (stopped at 800)",600,0.101
+"rank 8, lr 2e-4 (stopped at 800)",800,0.095

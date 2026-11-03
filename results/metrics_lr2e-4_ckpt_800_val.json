@@ -1,0 +1,10 @@
+{
+  "name": "lr2e-4_ckpt_800_val",
+  "n": 427,
+  "json_valid_rate": 0.9672,
+  "pair_precision": 0.7448,
+  "pair_recall": 0.5233,
+  "pair_f1": 0.6147,
+  "sentence_exact_match": 0.5621,
+  "mean_latency_s": 1.0811
+}
