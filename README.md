@@ -78,7 +78,7 @@ Multiple seeds; learning-rate decay; retrieved or tuned few-shot examples for th
 ## Reproduce
 ```
 python3.12 -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt
-python src/prepare_data.py                      # leak-free splits -> data/processed
+python src/prepare_data.py                      # regenerates the exact splits (seed 42) from the Hub
 PYTHONPATH=src python src/make_mlx_data.py      # chat-format training data
 mlx_lm.lora --config configs/lora_r8.yaml       # about 91 min on an M4
 PYTHONPATH=src python src/run_mlx.py --model mlx-community/Qwen2.5-3B-Instruct-4bit --adapter adapters/lora_r8 --split test --name lora_r8_zeroshot

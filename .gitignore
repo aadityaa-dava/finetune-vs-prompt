@@ -12,3 +12,6 @@ fused_model/
 models/
 *.safetensors
 *.gguf
+
+data/processed/
+data/mlx/
