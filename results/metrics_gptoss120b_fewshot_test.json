@@ -1,0 +1,10 @@
+{
+  "name": "gptoss120b_fewshot_test",
+  "n": 428,
+  "json_valid_rate": 1.0,
+  "pair_precision": 0.7394,
+  "pair_recall": 0.607,
+  "pair_f1": 0.6667,
+  "sentence_exact_match": 0.5841,
+  "mean_latency_s": 1.0016
+}
