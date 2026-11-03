@@ -1,0 +1,10 @@
+{
+  "name": "base_zeroshot_test",
+  "n": 428,
+  "json_valid_rate": 0.2687,
+  "pair_precision": 0.4833,
+  "pair_recall": 0.0919,
+  "pair_f1": 0.1545,
+  "sentence_exact_match": 0.0794,
+  "mean_latency_s": 0.747
+}

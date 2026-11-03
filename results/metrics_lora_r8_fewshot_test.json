@@ -1,0 +1,10 @@
+{
+  "name": "lora_r8_fewshot_test",
+  "n": 428,
+  "json_valid_rate": 0.9977,
+  "pair_precision": 0.5321,
+  "pair_recall": 0.6165,
+  "pair_f1": 0.5712,
+  "sentence_exact_match": 0.493,
+  "mean_latency_s": 1.8532
+}

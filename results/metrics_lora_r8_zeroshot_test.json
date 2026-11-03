@@ -1,0 +1,10 @@
+{
+  "name": "lora_r8_zeroshot_test",
+  "n": 428,
+  "json_valid_rate": 0.9977,
+  "pair_precision": 0.7467,
+  "pair_recall": 0.7195,
+  "pair_f1": 0.7328,
+  "sentence_exact_match": 0.6682,
+  "mean_latency_s": 1.032
+}
