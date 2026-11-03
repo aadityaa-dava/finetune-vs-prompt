@@ -49,7 +49,7 @@ Strict match after lowercasing and whitespace normalization. Paired bootstrap, 9
 - **Memorization:** F1 is 0.914 on training sentences vs 0.733 on test.
 - **Prompt-sensitive:** it expects the exact system prompt below. With a 4-shot prompt instead, test F1 fell to 0.571.
 - **Span boundaries** drive most errors for every model; a lenient overlap metric gives 0.899.
-- **General ability:** on a 40-question sanity set it scored 35/40, the same as the base, but produced degenerate outputs (repetition, image links) on 4 short unrelated prompts that the base answered correctly.
+- **General ability:** on a 40-question sanity set it scored 35/40, the same as the base, but gave wrong or degenerate outputs (repetition loops, stray image links) on 4 short unrelated prompts that the base answered correctly.
 - Repetition loops can truncate JSON on a few inputs.
 - Single seed, one dataset, one split; no claim beyond this task.
 - **License:** Qwen Research License, **non-commercial only**; see `LICENSE` and `NOTICE`.
