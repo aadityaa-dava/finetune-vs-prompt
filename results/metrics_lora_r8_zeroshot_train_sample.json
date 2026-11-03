@@ -1,0 +1,10 @@
+{
+  "name": "lora_r8_zeroshot_train_sample",
+  "n": 428,
+  "json_valid_rate": 0.993,
+  "pair_precision": 0.941,
+  "pair_recall": 0.8886,
+  "pair_f1": 0.914,
+  "sentence_exact_match": 0.8879,
+  "mean_latency_s": 1.0701
+}
