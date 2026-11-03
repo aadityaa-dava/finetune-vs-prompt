@@ -1,0 +1,414 @@
+{
+ "base": {
+  "correct": 35,
+  "n": 40,
+  "outputs": [
+   [
+    "What is 17 + 26? Answer with just the number.",
+    "43",
+    true
+   ],
+   [
+    "What is 9 * 8? Answer with just the number.",
+    "72",
+    true
+   ],
+   [
+    "What is 144 / 12? Answer with just the number.",
+    "12",
+    true
+   ],
+   [
+    "What is 100 - 37? Answer with just the number.",
+    "63",
+    true
+   ],
+   [
+    "What is 15% of 200? Answer with just the number.",
+    "30",
+    true
+   ],
+   [
+    "What is the square root of 81? Answer with just the number.",
+    "9",
+    true
+   ],
+   [
+    "What is the capital of France? One word.",
+    "Paris",
+    true
+   ],
+   [
+    "What is the capital of Japan? One word.",
+    "Tokyo",
+    true
+   ],
+   [
+    "What is the capital of Canada? One word.",
+    "Ottawa",
+    true
+   ],
+   [
+    "What is the capital of Australia? One word.",
+    "Canberra",
+    true
+   ],
+   [
+    "What is the capital of Egypt? One word.",
+    "Cairo",
+    true
+   ],
+   [
+    "What is the capital of Brazil? One word.",
+    "S\u00e3o Paulo",
+    false
+   ],
+   [
+    "What is the chemical symbol for gold? Answer with just the symbol.",
+    "Au",
+    true
+   ],
+   [
+    "What is the chemical symbol for sodium? Answer with just the symbol.",
+    "Na",
+    true
+   ],
+   [
+    "What is the chemical formula for water? Answer with just the formula.",
+    "H2O",
+    true
+   ],
+   [
+    "What gas do plants absorb from the air for photosynthesis? One or two words.",
+    "\u4e8c\u6c27\u5316\u78b3",
+    false
+   ],
+   [
+    "Which planet is closest to the Sun? One word.",
+    "Mercury",
+    true
+   ],
+   [
+    "Which planet is known as the Red Planet? One word.",
+    "Mars",
+    true
+   ],
+   [
+    "How many days are in a leap year? Answer with just the number.",
+    "366",
+    true
+   ],
+   [
+    "How many sides does a hexagon have? Answer with just the number.",
+    "6",
+    true
+   ],
+   [
+    "Who wrote the play Romeo and Juliet? Answer with the full name.",
+    "William Shakespeare",
+    true
+   ],
+   [
+    "What language is primarily spoken in Brazil? One word.",
+    "Portuguese",
+    true
+   ],
+   [
+    "What is the largest ocean on Earth? One or two words.",
+    "\u592a\u5e73\u6d0b",
+    false
+   ],
+   [
+    "What is the boiling point of water in Celsius at sea level? Just the number.",
+    "100",
+    true
+   ],
+   [
+    "Is a whale a fish or a mammal? One word.",
+    "Mammal",
+    true
+   ],
+   [
+    "Is the Earth round or flat? One word.",
+    "Round",
+    true
+   ],
+   [
+    "Answer yes or no: is 7 a prime number?",
+    "No, 7 is not a prime number. A prime number is a number greater than 1 that has no positive divisors other than 1 and itself. However, 7 can be divided",
+    false
+   ],
+   [
+    "Answer yes or no: is 9 a prime number?",
+    "No, 9 is not a prime number. A prime number is a number greater than 1 that has no positive divisors other than 1 and itself. However, 9 can be divided",
+    true
+   ],
+   [
+    "What is the opposite of hot? One word.",
+    "Cold",
+    true
+   ],
+   [
+    "What is the past tense of the verb 'go'? One word.",
+    "went",
+    true
+   ],
+   [
+    "What is the plural of 'mouse' (the animal)? One word.",
+    "Mice",
+    true
+   ],
+   [
+    "Spell the word 'cat' backwards. Just the word.",
+    "tac",
+    true
+   ],
+   [
+    "What comes next in the sequence 2, 4, 6, 8? Just the number.",
+    "10",
+    true
+   ],
+   [
+    "What month comes right after March? One word.",
+    "April",
+    true
+   ],
+   [
+    "What day comes right after Tuesday? One word.",
+    "Wednesday",
+    true
+   ],
+   [
+    "How many minutes are in one hour? Just the number.",
+    "60",
+    true
+   ],
+   [
+    "How many continents are there? Just the number.",
+    "5",
+    false
+   ],
+   [
+    "What color do you get by mixing blue and yellow? One word.",
+    "Green",
+    true
+   ],
+   [
+    "Reply with exactly the word: OK",
+    "OK",
+    true
+   ],
+   [
+    "Write the number 5 as a word, in lowercase. One word.",
+    "five",
+    true
+   ]
+  ]
+ },
+ "lora_r8": {
+  "correct": 35,
+  "n": 40,
+  "outputs": [
+   [
+    "What is 17 + 26? Answer with just the number.",
+    "17 + 26 = 43. Answer with just the number.",
+    true
+   ],
+   [
+    "What is 9 * 8? Answer with just the number.",
+    "9 * 8 = 72. Answer with just the number.",
+    true
+   ],
+   [
+    "What is 144 / 12? Answer with just the number.",
+    "12\n![](https://s.wiki.education.gov.hk/ckfile_uploads/2022/09/144_12.png)",
+    true
+   ],
+   [
+    "What is 100 - 37? Answer with just the number.",
+    "100 - 37 = 63\n![](https://s.alibaba.com/qa/question/img/20220928/682888",
+    true
+   ],
+   [
+    "What is 15% of 200? Answer with just the number.",
+    "15% of 200 is 30.![](https://www.albioncloud.com/![](https://www.albioncloud.com/![](https://www",
+    true
+   ],
+   [
+    "What is the square root of 81? Answer with just the number.",
+    "81\n![](https://s.wiki.education.gov.hk/ckfile_uploads/2022/09/81.jpg)",
+    true
+   ],
+   [
+    "What is the capital of France? One word.",
+    "Paris.",
+    true
+   ],
+   [
+    "What is the capital of Japan? One word.",
+    "Tokyo.",
+    true
+   ],
+   [
+    "What is the capital of Canada? One word.",
+    "Ottawa.",
+    true
+   ],
+   [
+    "What is the capital of Australia? One word.",
+    "Canberra.",
+    true
+   ],
+   [
+    "What is the capital of Egypt? One word.",
+    "Cairo.",
+    true
+   ],
+   [
+    "What is the capital of Brazil? One word.",
+    "Bras\u00edlia.",
+    true
+   ],
+   [
+    "What is the chemical symbol for gold? Answer with just the symbol.",
+    "Gold is represented by the symbol Au.",
+    true
+   ],
+   [
+    "What is the chemical symbol for sodium? Answer with just the symbol.",
+    "sodium\n![](https://s21![](https://s2![](https://s2![](https://s2![](https://s2![](https://s2",
+    false
+   ],
+   [
+    "What is the chemical formula for water? Answer with just the formula.",
+    "H2O\n![](https://s20cdn-0.campaignmonitor.com/landingpages/landingpages/2021/09/09/2021",
+    true
+   ],
+   [
+    "What gas do plants absorb from the air for photosynthesis? One or two words.",
+    "Oxygen\n![](https://www.albany.edu/~hodgson/Photosynthesis.jpg)",
+    false
+   ],
+   [
+    "Which planet is closest to the Sun? One word.",
+    "Mercury\n![](https://s.wiki![](https://s.wiki![](https://s.wiki![](https://s.wiki\n![](https://s.wiki",
+    true
+   ],
+   [
+    "Which planet is known as the Red Planet? One word.",
+    "Mars\n![](https://imgur.com/9999999.png)",
+    true
+   ],
+   [
+    "How many days are in a leap year? Answer with just the number.",
+    "366\n![](https://s219.computerweekly.com.au/news/2021/02/26/leap-year-366-days-2",
+    true
+   ],
+   [
+    "How many sides does a hexagon have? Answer with just the number.",
+    "6\n![](https://s20.qa.aliyun.com/dysys/api/ueditor/upload/202109/09/5898888",
+    true
+   ],
+   [
+    "Who wrote the play Romeo and Juliet? Answer with the full name.",
+    "William Shakespeare\n![](http://img-courses.c-Ter.org/2022/09/15/1663422982822.jpg",
+    true
+   ],
+   [
+    "What language is primarily spoken in Brazil? One word.",
+    "Portuguese.",
+    true
+   ],
+   [
+    "What is the largest ocean on Earth? One or two words.",
+    "The largest ocean on Earth is the Pacific Ocean.",
+    true
+   ],
+   [
+    "What is the boiling point of water in Celsius at sea level? Just the number.",
+    "100\n![](https://s21.radikal.ru/i182!/n182!/201902/!boiling_point_of_water.jpg)",
+    true
+   ],
+   [
+    "Is a whale a fish or a mammal? One word.",
+    "Whale\n![](https://s.wiki.education.gov.hk/ckfile_uploads/2022/05/Whale.jpg)",
+    false
+   ],
+   [
+    "Is the Earth round or flat? One word.",
+    "Earth is round.",
+    true
+   ],
+   [
+    "Answer yes or no: is 7 a prime number?",
+    "Yes, 7 is a prime number.",
+    true
+   ],
+   [
+    "Answer yes or no: is 9 a prime number?",
+    "9 is not a prime number.",
+    true
+   ],
+   [
+    "What is the opposite of hot? One word.",
+    "cold\n!hot\n!cold\n!hot\n!cold\n!hot\n!cold\n!hot\n!cold\n!hot\n!cold\n!hot\n!cold\n!hot",
+    true
+   ],
+   [
+    "What is the past tense of the verb 'go'? One word.",
+    "go\n![](https://s.was\n![](https://s.was\n![](https://s.was\n![](https://s.was\n![](https://s.w",
+    false
+   ],
+   [
+    "What is the plural of 'mouse' (the animal)? One word.",
+    "'mouse' (the animal) is the plural of 'mouse'. One word.",
+    false
+   ],
+   [
+    "Spell the word 'cat' backwards. Just the word.",
+    "\"cat\" backwards is \"tac\".",
+    true
+   ],
+   [
+    "What comes next in the sequence 2, 4, 6, 8? Just the number.",
+    "The sequence is: 2, 4, 6, 8. The next number in the sequence is: 10.",
+    true
+   ],
+   [
+    "What month comes right after March? One word.",
+    "April\n![](https://s.wiki.education.gov.cn/images/2022-03/29/1222222_1.png)",
+    true
+   ],
+   [
+    "What day comes right after Tuesday? One word.",
+    "Wednesday\n![](https://s.wasabi.io/AC/1999/09/29/1558288_1000.jpg)",
+    true
+   ],
+   [
+    "How many minutes are in one hour? Just the number.",
+    "1 hour = 60 minutes.",
+    true
+   ],
+   [
+    "How many continents are there? Just the number.",
+    "There are 7 continents: Asia, Africa, North America, Europe, Australia, South America, and Antarctica.",
+    true
+   ],
+   [
+    "What color do you get by mixing blue and yellow? One word.",
+    "\"Green\"",
+    true
+   ],
+   [
+    "Reply with exactly the word: OK",
+    "OK\n![](https://s.alinun.com/2023/03/28/1679888228222.jpg)![](",
+    true
+   ],
+   [
+    "Write the number 5 as a word, in lowercase. One word.",
+    "\"five\"",
+    true
+   ]
+  ]
+ }
+}
